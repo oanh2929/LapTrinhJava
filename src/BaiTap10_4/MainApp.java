@@ -39,7 +39,7 @@ public class MainApp extends JFrame {
         duoi.add(nutNhap);
         add(duoi, BorderLayout.SOUTH);
 
-        
+
         nutDangKy.addActionListener(e -> dangKy());
         nutDangNhap.addActionListener(e -> dangNhap());
         nutXuat.addActionListener(e -> xuat());
